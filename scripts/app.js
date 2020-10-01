@@ -152,19 +152,19 @@ function showGreetingMessage(hours) {
   }
 
   if (hours >= 4 && hours <= 11) {
-    textNode.innerText = "Good morning";
+    textNode.innerText = "Good Morning";
   }
 
   if (hours >= 12 && hours <= 16) {
-    textNode.innerText = "Good aftenoon";
+    textNode.innerText = "Good Afternoon";
   }
 
   if (hours >= 17 && hours <= 21) {
-    textNode.textContent = "Good evening";
+    textNode.textContent = "Good Evening";
   }
 
   if (hours >= 22 && hours <= 0) {
-    textNode.textContent = "You can do it!";
+    textNode.textContent = "Sweet Dreams";
   }
 }
 
