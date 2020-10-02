@@ -1,0 +1,24 @@
+{
+  "name": "to-do-application",
+  "version": "1.0.0",
+  "description": "This is a To-Do application. Developed with Vanilla JavaScript (pure JavaScript)\r Technologies used in this project are as follows -\r HTML5,\r CSS,\r JavaScript.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --asar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmitGujar/To-Do-Application.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmitGujar/To-Do-Application/issues"
+  },
+  "homepage": "https://github.com/AmitGujar/To-Do-Application#readme",
+  "devDependencies": {
+    "electron": "^10.1.3",
+    "electron-packager": "^15.1.0"
+  }
+}
