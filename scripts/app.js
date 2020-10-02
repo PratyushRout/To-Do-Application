@@ -177,6 +177,7 @@ function init() {
 window.onload = function () {
   init();
 };
+
 // target items created dynamically
 
 list.addEventListener("click", function (event) {

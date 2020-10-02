@@ -4,7 +4,7 @@ body {
     margin: 2px;
     background-color: rgb(46, 38, 38);
     font-family: 'Open Sans', sans-serif;
-    background-image: url('default.jpg');
+    background-image: url('test.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,6 +48,12 @@ table {
     margin-top: 10px;
     margin-left: 3%;
 }
+
+.weather {
+    width: 20%;
+    margin-left: 800px;
+}
+
 
 .quote {
     font-size: 20px;
